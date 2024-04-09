@@ -1,0 +1,122 @@
+:root {
+  --text-primary-light: #121316;
+  --text-primary-dark: #F5F6FA;
+
+  --text-secondary-light: #636E72;
+  --text-secondary-dark: #8391A1;
+
+  --text-third-light: #636E72;
+  --text-third-dark: #F5F6FA;
+
+  --text-forth-light: #121316;
+  --text-forth-dark: #8391A1;
+
+  --bg-primary-light: #F5F6FA;
+  --bg-primary-dark: #121316;
+
+  --bg-menu-light: #ffffff;
+  --bg-menu-dark: #191A1D;
+
+  --bg-playlist-light: rgb(255, 255, 255, 0.7);
+  --bg-playlist-dark: rgb(18, 19, 22, 0.2);
+
+  --bg-widget-light: #ffffff;
+  --bg-widget-dark: #6C5CE7DD;
+
+  --accent-light: #6C5CE7;
+  --accent-dark: #B2A8FF;
+
+  --menu-shadow-light: #626F75A1;
+  --menu-shadow-dark: #0B0C0D59;
+
+  --menu-border-light: #B2BEC373;
+  --menu-border-dark: #28292C33;
+
+  --overlap-light: #00000018;
+  --overlap-dark: #ffffff18;
+
+  --button-shadow-light: #6C5CE7FF;
+  --button-shadow-dark: #6C5CE799;
+
+  --text-tap-light: #636E72;
+  --text-tap-dark: #8391A1;
+
+  --bg-tap-light: #EAECF1;
+  --bg-tap-dark: #080B0B;
+
+  --tap-shadow-light: #DEE4E899;
+  --tap-shadow-dark: #0B0C0D;
+
+  --widget-shadow1-light: #B2BEC359;
+  --widget-shadow1-dark: #0B0C0D59;
+
+  --widget-shadow2-light: #B2BEC378;
+  --widget-shadow2-dark: #0B0C0D78;
+
+  --subtab-unselected-light: #8391A1;
+  --subtab-unselected-dark: #F5F6FA;
+
+  --modal-shadow1-light: #1213164D;
+  --modal-shadow1-dark: #0B0C0D80;
+
+  --modal-shadow2-light: #12131633;
+  --modal-shadow2-dark: #0B0C0D9E;
+
+  --modal-button-shadow-light: #6C5CE7;
+  --modal-button-shadow-dark: #6C5CE766;
+
+  --text-custom-light: #121316;
+  --text-custom-dark: #B2A8FF;
+}
+
+.light-theme {
+  --text-primary: var(--text-primary-light);
+  --text-secondary: var(--text-secondary-light);
+  --text-third: var(--text-third-light);
+  --text-forth: var(--text-forth-light);
+  --text-tap: var(--text-tap-light);
+  --bg-primary: var(--bg-primary-light);
+  --bg-menu: var(--bg-menu-light);
+  --bg-playlist: var(--bg-playlist-light);
+  --bg-tap: var(--bg-tap-light);
+  --bg-widget: var(--bg-widget-light);
+  --accent: var(--accent-light);
+  --menu-shadow: var(--menu-shadow-light);
+  --menu-border: var(--menu-border-light);
+  --overlap: var(--overlap-light);
+  --button-shadow: var(--button-shadow-light);
+  --tap-shadow: var(--tap-shadow-light);
+  --widget-shadow1: var(--widget-shadow1-light);
+  --widget-shadow2: var(--widget-shadow2-light);
+  --subtab-unselected: var(--subtab-unselected-light);
+  --modal-shadow1: var(--modal-shadow1-light);
+  --modal-shadow2: var(--modal-shadow2-light);
+  --modal-button-shadow: var(--modal-button-shadow-light);
+  --text-custom: var(--text-custom-light);
+}
+
+.dark-theme {
+  --text-primary: var(--text-primary-dark);
+  --text-secondary: var(--text-secondary-dark);
+  --text-third: var(--text-third-dark);
+  --text-forth: var(--text-forth-dark);
+  --text-tap: var(--text-tap-dark);
+  --bg-primary: var(--bg-primary-dark);
+  --bg-menu: var(--bg-menu-dark);
+  --bg-playlist: var(--bg-playlist-dark);
+  --bg-tap: var(--bg-tap-dark);
+  --bg-widget: var(--bg-widget-dark);
+  --accent: var(--accent-dark);
+  --menu-shadow: var(--menu-shadow-dark);
+  --menu-border: var(--menu-border-dark);
+  --overlap: var(--overlap-dark);
+  --button-shadow: var(--button-shadow-dark);
+  --tap-shadow: var(--tap-shadow-dark);
+  --widget-shadow1: var(--widget-shadow1-dark);
+  --widget-shadow2: var(--widget-shadow2-dark);
+  --subtab-unselected: var(--subtab-unselected-dark);
+  --modal-shadow1: var(--modal-shadow1-dark);
+  --modal-shadow2: var(--modal-shadow2-dark);
+  --modal-button-shadow: var(--modal-button-shadow-dark);
+  --text-custom: var(--text-custom-dark);
+}

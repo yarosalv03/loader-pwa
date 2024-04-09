@@ -1,0 +1,127 @@
+.Menu {
+    height: 40px;
+    position: relative;
+    box-shadow: 0px 20px 62.400001525878906px 0px #626F7559;
+    box-shadow: 0px 43px 28.899999618530273px -25px #626F75A1;
+}
+
+.menu-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.toggle-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.toggle-button-content {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: var(--bg-menu);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 15.399999618530273px 0px var(--menu-border);
+}
+
+.menu-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 998;
+    width: 300px;
+    height: 420px;
+    border-radius: 36px;
+    padding: 30px;
+    background-color: var(--bg-menu);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 0px 20px 62.400001525878906px 0px var(--menu-shadow);
+    box-shadow: 0px 43px 28.899999618530273px -25px var(--menu-shadow);
+}
+
+.menu-header {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.theme-change {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-toggle-label {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+.menu-toggle {
+    position: relative;
+    top: 16px;
+    right: -8px;
+}
+
+.songs-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: var(--text-secondary);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.songs-info-value {
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.menu-visit-site {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-visit-site-label {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.menu-visit-site-button {
+    cursor: pointer;
+    background-color: #6C5CE7;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: #F5F6FA;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.menu-visit-site-button:hover {
+    color: #6C5CE7;
+    background-color: #F5F6FA;
+}
+
+.menu-version {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8391A1;
+}
